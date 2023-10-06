@@ -12,6 +12,7 @@
 		2FD4F5E22ACC86DB008C29EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4F5E12ACC86DB008C29EA /* Assets.xcassets */; };
 		2FD4F5E52ACC86DB008C29EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4F5E42ACC86DB008C29EA /* Preview Assets.xcassets */; };
 		2FD4F5EC2ACC872F008C29EA /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4F5EB2ACC872F008C29EA /* BottomBarView.swift */; };
+		2FD4F5EE2ACC8761008C29EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4F5ED2ACC8761008C29EA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2FD4F5E12ACC86DB008C29EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD4F5E42ACC86DB008C29EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FD4F5EB2ACC872F008C29EA /* BottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		2FD4F5ED2ACC8761008C29EA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				2FD4F5DD2ACC86DA008C29EA /* BottomBarApp.swift */,
 				2FD4F5EB2ACC872F008C29EA /* BottomBarView.swift */,
+				2FD4F5ED2ACC8761008C29EA /* Constants.swift */,
 				2FD4F5DF2ACC86DA008C29EA /* ContentView.swift */,
 				2FD4F5E12ACC86DB008C29EA /* Assets.xcassets */,
 				2FD4F5E32ACC86DB008C29EA /* Preview Content */,
@@ -143,6 +146,7 @@
 				2FD4F5E02ACC86DA008C29EA /* ContentView.swift in Sources */,
 				2FD4F5EC2ACC872F008C29EA /* BottomBarView.swift in Sources */,
 				2FD4F5DE2ACC86DA008C29EA /* BottomBarApp.swift in Sources */,
+				2FD4F5EE2ACC8761008C29EA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

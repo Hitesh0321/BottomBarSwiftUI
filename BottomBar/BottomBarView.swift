@@ -48,7 +48,7 @@ struct BottomBar: View {
                                 Image(systemName: "plus").font(.title).foregroundColor(.white)
                                 
                             }
-                        }.padding(EdgeInsets(top: -23, leading: 0, bottom: 0, trailing: 0))
+                        }.padding(EdgeInsets(top: (UIDevice.isIPad ? -21 : -23), leading: 0, bottom: 0, trailing: 0))
                             Spacer()
                                                 
                     }
@@ -93,12 +93,12 @@ struct BottomBarButtonView: View {
         HStack(spacing: 10){
                 GeometryReader{
                     geo in
-                    VStack(spacing: 3){
+                    VStack(spacing: UIDevice.isIPad ? 6 : 3){
                         Rectangle()
                             .frame(height: 0)
                         Image(image)
                             .resizable()
-                            .frame(width: 24,height: 24)
+                            .frame(width: UIDevice.isIPad ? 30 : 24,height: UIDevice.isIPad ? 30 : 24)
                             .foregroundColor(isActive ? .purple : .gray)
                         Text(text)
                             .font(.caption)
