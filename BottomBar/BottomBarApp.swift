@@ -36,6 +36,5 @@ struct BottomBarApp: App {
             }
         }
     }
-    
    
 }
