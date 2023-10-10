@@ -11,6 +11,7 @@ enum BottomBarSelectedTab:Int{
 }
 struct BottomBar: View {
     @Environment(\.safeAreaInsets) var safeAreaInsets
+    @Environment(\.colorScheme) var colorScheme
     @Binding var selectedTab:BottomBarSelectedTab
     var body: some View {
 
@@ -69,9 +70,9 @@ struct BottomBar: View {
             }
             .frame(height: 40)
             .background(
-                Image("bottomBarBG")
+                Image("bottomBarBG").renderingMode(.template).foregroundColor(Color("PrimaryWhite"))
                     )
-            .shadow(color: .black.opacity(0.10), radius: 10, x: 0,y: 0)
+            .shadow(color: Color("PrimaryBlack").opacity(colorScheme == .dark ? 0.5 : 0.1), radius: 10, x: 0,y: 0)
         
         
     }
